@@ -19,7 +19,7 @@ def print_word_freq(file):
 
 def clean_text(text):
     """
-    Given a text, return the text with no spaces or punctuation and all lowercased.
+    Given a text, return the text with no punctuation and all lowercased.
     """
     new_text = ""
     text = text.lower()
@@ -29,7 +29,7 @@ def clean_text(text):
             new_text += character
             word_list = new_text.split ()
         # print(word_list)
-        
+
     return new_text
 
 
@@ -37,9 +37,11 @@ def clean_text(text):
 
     # 2) calculate the frequency of words
        
-
-        # -all words are lowercase
         # -remove stop words
+    query = 
+
+
+
         # -keep a count of how often a word is used (use a dictionary)
 
 
